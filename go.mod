@@ -17,7 +17,7 @@ require (
 	github.com/GoogleCloudPlatform/cloudsql-proxy v0.0.0-20190129172621-c8b1d7a94ddf
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/ajstarks/svgo v0.0.0-20210923152817-c3b6e2f0c527
-	github.com/aws/aws-sdk-go v1.30.15
+	github.com/aws/aws-sdk-go v1.34.0
 	github.com/bradfitz/go-smtpd v0.0.0-20170404230938-deb6d6237625
 	github.com/creack/pty v1.1.18
 	github.com/davecgh/go-spew v1.1.1
