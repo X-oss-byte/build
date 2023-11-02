@@ -53,7 +53,7 @@ require (
 	go4.org v0.0.0-20180809161055-417644f6feb5
 	golang.org/x/crypto v0.11.0
 	golang.org/x/exp v0.0.0-20230809094429-853ea248256d
-	golang.org/x/image v0.5.0
+	golang.org/x/image v0.10.0
 	golang.org/x/mod v0.12.0
 	golang.org/x/net v0.12.0
 	golang.org/x/oauth2 v0.9.0
