@@ -3,14 +3,14 @@ module golang.org/x/build
 go 1.20
 
 require (
-	cloud.google.com/go/bigquery v1.50.0
-	cloud.google.com/go/cloudbuild v1.9.0
+	cloud.google.com/go/bigquery v1.53.0
+	cloud.google.com/go/cloudbuild v1.13.0
 	cloud.google.com/go/compute/metadata v0.2.3
-	cloud.google.com/go/datastore v1.11.0
+	cloud.google.com/go/datastore v1.13.0
 	cloud.google.com/go/errorreporting v0.3.0
-	cloud.google.com/go/pubsub v1.30.0
-	cloud.google.com/go/secretmanager v1.10.0
-	cloud.google.com/go/security v1.15.0
+	cloud.google.com/go/pubsub v1.33.0
+	cloud.google.com/go/secretmanager v1.11.1
+	cloud.google.com/go/security v1.15.1
 	cloud.google.com/go/storage v1.30.1
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2
 	contrib.go.opencensus.io/exporter/stackdriver v0.13.5
@@ -27,12 +27,12 @@ require (
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/golang-migrate/migrate/v4 v4.15.0-beta.3
 	github.com/golang/protobuf v1.5.3
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-github/v48 v48.1.0
 	github.com/google/safehtml v0.0.3-0.20220430015336-00016cfeca15
-	github.com/google/uuid v1.3.0
-	github.com/googleapis/gax-go/v2 v2.10.0
+	github.com/google/uuid v1.3.1
+	github.com/googleapis/gax-go/v2 v2.11.0
 	github.com/googleapis/google-cloud-go-testing v0.0.0-20200911160855-bcd43fbb19e8
 	github.com/gregjones/httpcache v0.0.0-20180305231024-9cad4c3443a7
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.1-0.20190118093823-f849b5445de4
@@ -51,39 +51,39 @@ require (
 	go.chromium.org/luci v0.0.0-20230807190043-44f4e48ce531
 	go.opencensus.io v0.24.0
 	go4.org v0.0.0-20180809161055-417644f6feb5
-	golang.org/x/crypto v0.11.0
+	golang.org/x/crypto v0.14.0
 	golang.org/x/exp v0.0.0-20230809094429-853ea248256d
 	golang.org/x/image v0.5.0
 	golang.org/x/mod v0.12.0
-	golang.org/x/net v0.12.0
-	golang.org/x/oauth2 v0.9.0
+	golang.org/x/net v0.17.0
+	golang.org/x/oauth2 v0.11.0
 	golang.org/x/perf v0.0.0-20230717203022-1ba3a21238c9
 	golang.org/x/sync v0.3.0
-	golang.org/x/sys v0.10.0
-	golang.org/x/term v0.10.0
+	golang.org/x/sys v0.13.0
+	golang.org/x/term v0.13.0
 	golang.org/x/time v0.3.0
 	golang.org/x/tools v0.11.0
-	google.golang.org/api v0.125.0
+	google.golang.org/api v0.126.0
 	google.golang.org/appengine v1.6.8-0.20221117013220-504804fb50de
-	google.golang.org/genproto v0.0.0-20230530153820-e85fd2cbaebc
-	google.golang.org/genproto/googleapis/api v0.0.0-20230530153820-e85fd2cbaebc
-	google.golang.org/grpc v1.57.0
+	google.golang.org/genproto v0.0.0-20230822172742-b8732ec3820d
+	google.golang.org/genproto/googleapis/api v0.0.0-20230822172742-b8732ec3820d
+	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/inf.v0 v0.9.1
 )
 
 require (
-	cloud.google.com/go v0.110.0 // indirect
-	cloud.google.com/go/compute v1.19.3 // indirect
-	cloud.google.com/go/container v1.15.0 // indirect
-	cloud.google.com/go/iam v1.0.1 // indirect
-	cloud.google.com/go/longrunning v0.4.2 // indirect
-	cloud.google.com/go/monitoring v1.13.0 // indirect
-	cloud.google.com/go/trace v1.9.0 // indirect
+	cloud.google.com/go v0.110.7 // indirect
+	cloud.google.com/go/compute v1.23.0 // indirect
+	cloud.google.com/go/container v1.24.0 // indirect
+	cloud.google.com/go/iam v1.1.1 // indirect
+	cloud.google.com/go/longrunning v0.5.1 // indirect
+	cloud.google.com/go/monitoring v1.15.1 // indirect
+	cloud.google.com/go/trace v1.10.1 // indirect
 	github.com/aclements/go-moremath v0.0.0-20210112150236-f10218a38794 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be // indirect
-	github.com/apache/arrow/go/v11 v11.0.0 // indirect
+	github.com/apache/arrow/go/v12 v12.0.0 // indirect
 	github.com/apache/thrift v0.16.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/census-instrumentation/opencensus-proto v0.4.1 // indirect
@@ -95,7 +95,7 @@ require (
 	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-latex/latex v0.0.0-20210823091927-c0d11ff05a81 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
-	github.com/go-logr/logr v1.2.4 // indirect
+	github.com/go-logr/logr v1.3.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-pdf/fpdf v0.5.0 // indirect
 	github.com/goccy/go-json v0.9.11 // indirect
@@ -137,16 +137,16 @@ require (
 	github.com/shurcooL/graphql v0.0.0-20220520033453-bdb1221e171e // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	github.com/zeebo/xxh3 v1.0.2 // indirect
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.42.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.46.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.42.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.42.0 // indirect
-	go.opentelemetry.io/otel v1.16.0 // indirect
-	go.opentelemetry.io/otel/metric v1.16.0 // indirect
-	go.opentelemetry.io/otel/trace v1.16.0 // indirect
+	go.opentelemetry.io/otel v1.20.0 // indirect
+	go.opentelemetry.io/otel/metric v1.20.0 // indirect
+	go.opentelemetry.io/otel/trace v1.20.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	gonum.org/v1/plot v0.10.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230530153820-e85fd2cbaebc // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
